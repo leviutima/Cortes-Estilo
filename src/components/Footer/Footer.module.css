@@ -1,0 +1,10 @@
+.footerStyle {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 30px;
+    padding-bottom: 45px;
+
+    background-color: #684c38;
+    color: white;
+}

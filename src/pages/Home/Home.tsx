@@ -1,6 +1,8 @@
 import Header from '../../components/Header/Header';
 import style from '../Home/Home.module.css'
 import imgAbout from '../../assets/young-man-barber-s-shop-getting-his-beard-trimmed.jpg'
+import Button from '../../components/Button/Button';
+import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -57,6 +59,7 @@ const Home = () => {
                     </div>
                     <div className={style.precos}>
                         <span>R$ 25</span>
+                        <span>______</span>
                     </div>
                 </div>
                 <div className= {style.subContainerService}>
@@ -66,6 +69,7 @@ const Home = () => {
                     </div>
                     <div className={style.precos}>
                         <span>R$ 35</span>
+                        <span>______</span>
                     </div>
                 </div>
                 <div className= {style.subContainerService}>
@@ -75,6 +79,7 @@ const Home = () => {
                     </div>
                     <div className={style.precos}>
                         <span>R$ 15</span>
+                        <span>______</span>
                     </div>   
                 </div>
                 <div className= {style.subContainerService}>
@@ -84,6 +89,7 @@ const Home = () => {
                     </div>
                     <div className={style.precos}>
                         <span>R$ 30</span>
+                        <span>______</span>
                     </div>
                 </div>
                 <div className= {style.subContainerService}>
@@ -93,6 +99,7 @@ const Home = () => {
                     </div>
                     <div className={style.precos}>
                         <span>R$ 10</span>
+                        <span>______</span>
                     </div>
                 </div>
                 <div className= {style.subContainerService}>
@@ -102,6 +109,7 @@ const Home = () => {
                     </div>
                     <div className={style.precos}>
                         <span>R$ 50</span>
+                        <span>______</span>
                     </div>
                 </div>
             </section>
@@ -141,7 +149,9 @@ const Home = () => {
                         placeholder='Digite sua mensagem...'></textarea>
                     </div>
                 </form>
+                <Button>ENVIAR</Button>
             </section>
+            <Footer/>
         </>
     )
 }

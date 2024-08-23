@@ -105,6 +105,11 @@
     flex-direction: column;
 }
 
+.precos {
+    display: flex;
+    flex-direction: column;
+}
+
 .containerSectionForm {
     display: flex;
     justify-content: center;
@@ -112,6 +117,7 @@
     align-items: center;
 
     padding-top: 58px;
+    padding-bottom: 58px;
 
     & h2 {
         color: #684c38;
