@@ -7,12 +7,13 @@ const Header = () => {
         <>
             <header className={style.headerStyle}>
                 <nav className={style.container}>
-                    <div>
+                    <div className={style.containerLogo}>
                         <img className={style.imgMain} src={logo}/>
+                        <span>C&E</span>
                     </div>
                     <ul className={style.listContainer}>
-                        <li>SERVIÇOS</li>
                         <li>QUEM SOMOS</li>
+                        <li>SERVIÇOS</li>
                         <li>CONTATO</li>
                     </ul>
                     <div className={style.containerRedeSocial}>

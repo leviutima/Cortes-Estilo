@@ -34,8 +34,70 @@
 }
 
 .containerSectionSecond {
+    display: flex;
+    justify-content: center;
+    color: #684c38;
     padding: 5rem 2rem; 
     background-color: white; 
     position: relative;
     z-index: 2; 
+
+    & h2 {
+        font-size: 58px;
+        font-weight: 800;
+    }
+}
+
+.containerAbout {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    padding-top: 30px;
+    margin-left: 25%;
+}
+
+.aboutImg {
+    width: 25vw;
+}
+
+.paddingText {
+    margin-right: 25%;
+}
+
+.containerService {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+
+    background-color: #684c38;
+    padding-top: 58px;
+    padding-bottom: 58px;
+
+    & h2 {
+        font-size: 58px;
+        color: white;
+    }
+
+    & span {
+        font-size: 32px;
+        color: white;
+        font-weight: 100;
+    }
+}
+
+.subContainerService {
+    display: flex;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+}
+
+.saleService {
+    display: flex;
+    flex-direction: column;
 }

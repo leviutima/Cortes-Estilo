@@ -26,3 +26,14 @@
     color: white;
     font-weight: 700;
 }
+
+.containerLogo {
+    display: flex;
+    align-items: center;
+
+    & span {
+        color: white;
+        font-size: 26px;
+        font-weight: 600;
+    }
+}
