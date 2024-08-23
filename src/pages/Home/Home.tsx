@@ -105,6 +105,43 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <section id='Contact' className={style.containerSectionForm}>
+                <h2>CONTATO</h2>
+                <form className= {style.containerForm}>
+                    <div className={style.containerInput}>
+                        <label>Nome</label>
+                        <input 
+                        className={style.firstInput} 
+                        type='Text' 
+                        placeholder='Digite seu nome...'>
+                        </input>
+                    </div>
+                    <div className={style.containerInput}>
+                        <label>Telefone</label>
+                        <input 
+                        className={style.firstInput}
+                        type='tel'
+                        placeholder='Digite seu telefone...'
+                        ></input>
+                    </div>
+                </form>
+                <form className={style.secondInput}>
+                    <div className={style.containerInput}>
+                        <label>Email</label>
+                        <input 
+                        className={style.inputEmail}
+                        type='email'
+                        placeholder='Digite seu email...'
+                        ></input>
+                    </div>
+                    <div className={style.containerInput}>
+                        <label>Mensagem</label>
+                        <textarea 
+                        className={style.inputMensagem} 
+                        placeholder='Digite sua mensagem...'></textarea>
+                    </div>
+                </form>
+            </section>
         </>
     )
 }

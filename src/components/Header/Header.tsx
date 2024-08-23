@@ -8,16 +8,26 @@ const Header = () => {
             <header className={style.headerStyle}>
                 <nav className={style.container}>
                     <div className={style.containerLogo}>
-                        <img className={style.imgMain} src={logo}/>
-                        <span>C&E</span>
+                        <a className={style.ancoraStyle} href='#Main'>
+                            <img className={style.imgMain} src={logo}/>
+                        </a>
+                        <span>C&E</span>  
                     </div>
                     <ul className={style.listContainer}>
-                        <li>QUEM SOMOS</li>
-                        <li>SERVIÇOS</li>
-                        <li>CONTATO</li>
+                        <a href='#About' className={style.ancoraStyle}>
+                            <li>QUEM SOMOS</li>
+                        </a>
+                        <a href='#Services' className={style.ancoraStyle}>
+                            <li>SERVIÇOS</li>
+                        </a>
+                        <a href='#Contact' className={style.ancoraStyle}>
+                            <li>CONTATO</li>
+                        </a>
                     </ul>
                     <div className={style.containerRedeSocial}>
-                        <IoLogoInstagram color='white' size={28}/>
+                        <a href='https://www.instagram.com/levi.utima/'>
+                            <IoLogoInstagram color='white' size={28} />
+                        </a>
                     </div>
                 </nav>
             </header>

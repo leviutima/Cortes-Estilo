@@ -13,7 +13,7 @@
     background-image: url('../../assets/woman-washing-hair-customer.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     z-index: 0; 
 }
 
@@ -62,6 +62,9 @@
 }
 
 .paddingText {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
     margin-right: 25%;
 }
 
@@ -84,7 +87,7 @@
     & span {
         font-size: 32px;
         color: white;
-        font-weight: 100;
+        font-weight: 100\;
     }
 }
 
@@ -100,4 +103,57 @@
 .saleService {
     display: flex;
     flex-direction: column;
+}
+
+.containerSectionForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 58px;
+
+    & h2 {
+        color: #684c38;
+        font-size: 58px;
+    }
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: row;
+
+    gap: 52px;
+}
+
+.containerInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstInput {
+    width: 20vw;
+    height: 3.5vh;
+}
+
+.secondInput {
+    padding-top: 16px;
+    padding-bottom: 32px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.inputEmail {
+    width: 43vw;
+    height: 3.5vh;
+}
+
+.inputMensagem {
+   height: 16vh;
+   resize: vertical;
+   font-family: 'Inter', sans-serif;
+   padding-left: 8px;
+   padding-top: 8px;
 }
