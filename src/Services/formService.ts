@@ -9,7 +9,7 @@ export interface FormData {
 
 export const submitForm = async (formData: FormData): Promise<void> => {
     try {
-        const response = await axios.post('http://localhost:8080/Usuario', formData)
+        await axios.post('http://localhost:8080/Usuario', formData)
     } catch (error) {
         console.error ('erro ao enviar dados', error)
         throw error
