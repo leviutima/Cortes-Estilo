@@ -127,9 +127,14 @@
 
 .containerForm {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     gap: 52px;
+}
+
+.subContainerForm {
+    display: flex;
+    gap: 58px;
 }
 
 .containerInput {
